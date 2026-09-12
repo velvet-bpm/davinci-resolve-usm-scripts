@@ -1,9 +1,10 @@
 # davinci-resolve-usm-toolkit
 Scripts that allow the easier creation of custom usm animations for Dokkan using DaVinci Resolve.
-The first script auto imports the .wav files into your Media Pool in a sub folder called Sound Effects.
-It changes the project name to USM and creates a timeline called video and also changing the track names to clips and sound_effects.
 
-The second script should be run when the animation is finished, it creates a file in the Documents folder with the PlaySe command with the sound effect id and frame it should start at. You just need to paste it in the lua you'll use :)
+The first script auto imports the .wav files into your Media Pool in a sub folder called Sound Effects.
+It changes the project name to USM and creates a timeline called video and also changes the track names to "Clips" and "Sound Effects".
+
+The second script should be run when the animation is finished, it creates a file in the Documents folder with the PlaySe command and in it, the sound effect id and frame it should start at. You just need to paste it in the lua you'll use :)
 
 **Installation**
 -  Download both scripts and the wav.zip
