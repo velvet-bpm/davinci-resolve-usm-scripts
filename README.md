@@ -7,9 +7,9 @@ It changes the project name to USM and creates a timeline called video and also 
 The second script should be run when the animation is finished, it creates a file in the Documents folder with the PlaySe command and in it, the sound effect id and frame it should start at. You just need to paste it in the lua you'll use :)
 
 **Installation**
--  Download both scripts and the wav.zip
+-  Download all python files and the wav.zip
 -  Extract the wav folder in your Documents folder
--  And add both scripts in the C:/Users/%USER%/AppData/Roaming/Blackmagic Design/DaVinci Resolve/Support/Fusion/Scripts/Comp folder
+-  And add the three python files into the C:/Users/%USER%/AppData/Roaming/Blackmagic Design/DaVinci Resolve/Support/Fusion/Scripts/Comp folder
 
 **How to run**
 -  With DaVinci Resolve opened, create a new project.
