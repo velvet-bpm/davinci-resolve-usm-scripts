@@ -29,7 +29,7 @@ current_project.SetCurrentTimeline(timeline)
 current_timeline = current_project.GetCurrentTimeline()
 
 video_track = current_timeline.SetTrackName('video', 1, 'Clips')
-audio_track = current_timeline.SetTrackName('audio', 1, 'Sound Effects')
+audio_track = current_timeline.SetTrackName('audio', 2, 'Sound Effects')
 
 root_folder = media_pool.GetRootFolder()
 sub_folder = media_pool.AddSubFolder(root_folder, "Sound Effects")
