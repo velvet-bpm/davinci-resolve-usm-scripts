@@ -26,6 +26,9 @@ else:
     print("No item in track list")
 
 if effect_id_and_start_frames:
+    if new_file_path:
+                os.remove(new_file_path)
     for effect in effect_id_and_start_frames:
         with open(new_file_path, "a+") as file:
-            file.write(f"playSe(spep_0 + {effect_id_and_start_frames.get(effect)}, {effect})\n")
+            file.write(f"playSe(spep_0 + {effect_id_and_start_frames.get(effect)}, {effect}) --{id_and_name.get(effect)}\n")
+
