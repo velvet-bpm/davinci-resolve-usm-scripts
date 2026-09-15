@@ -30,5 +30,5 @@ if effect_id_and_start_frames:
                 os.remove(new_file_path)
     for effect in effect_id_and_start_frames:
         with open(new_file_path, "a+") as file:
-            file.write(f"playSeVer2(spep_0 + {effect_id_and_start_frames.get(effect)}, {effect}, {""}, 0, 0, 0, -1 ) --{id_and_name.get(effect)}\n")
+            file.write(f'playSeVer2(spep_0 + {effect_id_and_start_frames.get(effect)}, {effect}, {""}, 0, 0, 0, -1 ) --{id_and_name.get(effect)}\n')
 
