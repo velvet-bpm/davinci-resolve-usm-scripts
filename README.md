@@ -6,6 +6,9 @@ It changes the project name to USM and creates a timeline called video and also 
 
 The second script should be run when the animation is finished, it creates a file in the Documents folder with the PlaySe command and in it, the sound effect id and frame it should start at. You just need to paste it in the lua you'll use :)
 
+**Requirements**
+-  Python 3.14 installed
+
 **Installation**
 -  Download all python files and the wav.zip
 -  Extract the wav folder in your Documents folder
