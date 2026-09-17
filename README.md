@@ -2,9 +2,9 @@
 Scripts that allow the easier creation of custom usm animations for Dokkan using DaVinci Resolve.
 
 The first script auto imports the .wav files into your Media Pool in a sub folder called Sound Effects.
-It changes the project name to USM and creates a timeline called video and also changes the track names to "Clips" and "Sound Effects".
+It changes the project name to USM and creates a timeline called video and also changes the video track name to "Clips", and creates a second audio track called "Sound Effects".
 
-The second script should be run when the animation is finished, it creates a file in the Documents folder with the PlaySe command and in it, the sound effect id and frame it should start at. You just need to paste it in the lua you'll use :)
+The second script should be run when the animation is finished, it creates a file in the Documents folder with the playSeVer2 command and in it, the sound effect id and frame it should start at, plus the default values. You just need to paste it in the lua you'll use :)
 
 **Requirements**
 -  Python 3.14 installed
@@ -18,3 +18,6 @@ The second script should be run when the animation is finished, it creates a fil
 -  With DaVinci Resolve opened, create a new project.
 -  In said project, on the top menu go to: Workspace -> Scripts -> Comp
 -  Run the script you want to run
+
+**How to generate the commands**
+- Make sure the sound effects are in the second audio track
